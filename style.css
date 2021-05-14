@@ -38,7 +38,7 @@ section{
     text-align: center;
     background: url(images/bg-pattern-card.svg) repeat-x, hsl(0, 0%, 100%);
     background-position: top center;
-    position: relative;
+    position: relative;     
 }
 
 img{
@@ -66,4 +66,19 @@ img{
 
 .followers, .likes, .photos{
     margin-top: 10%;
+}
+
+@media (min-width: 600px){
+    section{
+        margin: 10% 3% 0% 40%;
+        width: 20%;
+    }
+
+    body{
+        background: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg"),hsl(185, 75%, 39%);
+        background-repeat: cover;  
+        background-position: bottom 10em right 80em, top 30em left 80em;
+        background-repeat: no-repeat, no-repeat;
+    }
+
 }
